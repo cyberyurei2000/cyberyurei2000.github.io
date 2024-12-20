@@ -177,6 +177,11 @@ main {
     width: 100%;
 }
 
+/* -------------------About------------------- */
+.about-text {
+    font-size: 12px;
+}
+
 /* -------------------Footer------------------- */
 footer {
     background-color: var(--blue);
