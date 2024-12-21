@@ -83,6 +83,14 @@ img {
     pointer-events: none;
 }
 
+hr {
+    border-left: 2px solid var(--border-out);
+    border-top: 2px solid var(--border-out);
+    border-right: 2px solid var(--border-in);
+    border-bottom: 2px solid var(--border-in);
+    margin-bottom: 10px;
+}
+
 /* -------------------Main------------------- */
 main {
     background-color: var(--blue);
@@ -180,6 +188,25 @@ main {
 /* -------------------About------------------- */
 .about-text {
     font-size: 12px;
+}
+
+.about-title {
+    background-color: var(--background);
+    font-size: large;
+    font-weight: bold;
+    border-left: 3px solid var(--border-in);
+    border-right: 3px solid var(--black);
+    border-top: 3px solid var(--border-in);
+    border-bottom: 3px solid var(--black);
+    padding: 2px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.about-faq-qa {
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 /* -------------------Footer------------------- */
